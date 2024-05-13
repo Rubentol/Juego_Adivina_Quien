@@ -118,7 +118,7 @@ boton_play_img = pygame.image.load("PLAY.jpg") #PLAY
 boton_play_img = pygame.transform.scale(boton_play_img, (ANCHO // 8, ALTO // 12))
 boton_salir_img = pygame.image.load("SALIR.png") #SALIR
 boton_salir_img = pygame.transform.scale(boton_salir_img, (ANCHO // 8, ALTO // 12))
-boton_reiniciar_img = pygame.image.load("reiniciar.png") #SALIR
+boton_reiniciar_img = pygame.image.load("reiniciar.png") #REINICIAR
 boton_reiniciar_img = pygame.transform.scale(boton_reiniciar_img, (ANCHO // 10, ALTO // 10))
 
 # Definir la posición de los botones
@@ -549,7 +549,6 @@ def abrir_ventana():
             ventana.blit(Rein, Rein_rect)
             ventana.blit(Excelente, (975 // 2 - personajes.get_width() // 2, 260))
 
-      
         #Botones
         ventana.blit(boton_no_img, boton_no_rect)
         ventana.blit(boton_si_img, boton_si_rect)
